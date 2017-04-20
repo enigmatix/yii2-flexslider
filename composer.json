@@ -1,0 +1,22 @@
+{
+    "name": "enigmatix/yii2-flexslider",
+    "description": "Yii2 widget wrapper for the woo-commerce FlexSlider library",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension","slider","gallery","flexslider"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Joel Small",
+            "email": "joel.small@biscon.com.au"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*",
+	"bower-asset/flexslider"
+    },
+    "autoload": {
+        "psr-4": {
+            "enigmatix\\flexSlider\\": ""
+        }
+    }
+}
